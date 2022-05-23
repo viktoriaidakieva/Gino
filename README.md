@@ -6,10 +6,10 @@ A Team of ANDi’s will be using the scrum framework to create a solution to the
 
 The team consists of a Product Owner, Scrum Master, 3 Developers and 2 Product Analysts and a UX Designer.
 
-Business problem:
+**Business problem:**
 As a tech company, AND is generating a lot of material online for internal communication, learning and documenting processes. Although, Google Drive is used to share documents, it is not very easy to navigate through, search from and keeping consistent across teams. To ensure that documentation stays relevant and useful for AND, it will be useful to have a portal (or any other solution) to allow for easy navigation and storage. Documentation includes internal websites, slides, docs, diagrams, videos, etc. 
 
-Things to think about
+**Things to think about**
 How can we make this easy to navigate and maintain?
 Is there an alternative to folder structure?
 How can we ensure consistency, say for naming conventions? 
