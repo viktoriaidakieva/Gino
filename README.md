@@ -60,10 +60,16 @@ AND Logo
 
 ![AND LOGO](https://user-images.githubusercontent.com/66388744/169838636-288009aa-dc8f-40dc-8312-620d1877ba4b.jpg)
 
+## Wireframes
+
+Gino Dashboard 
+<img width="1280" alt="Dashboard Option 2" src="https://user-images.githubusercontent.com/66388744/169857215-88132026-ffad-4399-8b3a-f471af9a099a.png">
+
+
 ## Roadmap 
 
 
-## Contirbution
+## Contribution
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
