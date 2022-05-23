@@ -19,7 +19,7 @@ As a tech company, AND is generating a lot of material online for internal commu
 
 
 ## Built With
-React.js (using )
+React.js
 
 Bootstrap
 
