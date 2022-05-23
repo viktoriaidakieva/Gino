@@ -32,15 +32,13 @@ Refer to https://nodejs.org/en/ to install nodejs
 This is an example of how to list things you need to use the software and how to install them.
     
      npm install npm@latest -g
-     
-Install create-react-app
-Install create-react-app npm package globally. 
-This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
-
-     npm install -g create-react-app
 
 ## Installation
 Setting up Gino
+
+Go to project folder
+
+     cd gino
 
 Install NPM packages 
      
@@ -49,7 +47,7 @@ Install NPM packages
 Start react app
 
      npm start
-
+     
 
 ## Usage And Wireframes
 
@@ -78,6 +76,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 
 ## Acknowledgements
-
+Create React App (https://create-react-app.dev/)
 React Icon (https://react-icons.github.io/react-icons)
 Fonts (https://fontawesome.com/)
