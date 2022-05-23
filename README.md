@@ -1,7 +1,7 @@
 # Gino
 A product to manage, refine and improve a knowledge management system
 
-**About The Project
+## About The Project
 A Team of ANDi’s will be using the scrum framework to create a solution to the Below business problem during a ANDuction Bootcamp. Our solution will is to migrate the Google API with Gino. Gino will be an internal platform which can be used along side google drive and other knowledge and file management systems to find documentation faster. Gino will allow the user to navigate the database using categories, labels, sort, filter, search, ‘shared with’ and ‘share by’. 
 
 The team consists of a Product Owner, Scrum Master, 3 Developers and 2 Product Analysts and a UX Designer.
@@ -18,36 +18,45 @@ How can we have templates?
 Keep it associated with Google account login 
 
 
-**Built With
+## Built With
 React.js
+
 Bootstrap
 
-**Getting Started 
+## Getting Started 
 
-	***Prerequisites 
-	Install Node JS
-	Refer to https://nodejs.org/en/ to install nodejs
+###### Prerequisites 
+Install Node JS
+Refer to https://nodejs.org/en/ to install nodejs
 	
 This is an example of how to list things you need to use the software and how to install them.
-    npmnpm install npm@latest -g
-	Install create-react-app
-	Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following 	command to install create-react-app
-    npm install -g create-react-app
+    
+     npm install npm@latest -g
+     
+Install create-react-app
+Install create-react-app npm package globally. 
+This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
 
-	***Installation
+     npm install -g create-react-app
+
+## Installation
 Setting up Gino
 
 Install NPM packages 
-    npm install
+     
+     npm install
+     
 Start react app
 
-
-**Usage And Wireframes
-
-**Roadmap 
+     npm start
 
 
-**Contirbution
+## Usage And Wireframes
+
+## Roadmap 
+
+
+## Contirbution
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
@@ -58,7 +67,7 @@ Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
 
-**Acknowledgements
+## Acknowledgements
 
 React Icon (https://react-icons.github.io/react-icons)
 Fonts (https://fontawesome.com/)
