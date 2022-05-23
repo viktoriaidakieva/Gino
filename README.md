@@ -10,12 +10,12 @@ The team consists of a Product Owner, Scrum Master, 3 Developers and 2 Product A
 As a tech company, AND is generating a lot of material online for internal communication, learning and documenting processes. Although, Google Drive is used to share documents, it is not very easy to navigate through, search from and keeping consistent across teams. To ensure that documentation stays relevant and useful for AND, it will be useful to have a portal (or any other solution) to allow for easy navigation and storage. Documentation includes internal websites, slides, docs, diagrams, videos, etc. 
 
 **Things to think about**
-How can we make this easy to navigate and maintain?
-Is there an alternative to folder structure?
-How can we ensure consistency, say for naming conventions? 
-How can we prevent duplication and enable archiving? 
-How can we have templates? 
-Keep it associated with Google account login 
+- How can we make this easy to navigate and maintain?
+- Is there an alternative to folder structure?
+- How can we ensure consistency, say for naming conventions? 
+- How can we prevent duplication and enable archiving? 
+- How can we have templates? 
+- Keep it associated with Google account login 
 
 
 ## Built With
