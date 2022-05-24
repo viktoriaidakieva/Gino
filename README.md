@@ -63,7 +63,8 @@ AND Logo
 ## Wireframes
 
 Gino Dashboard 
-<img width="1280" alt="Dashboard - Collapsed Nav" src="https://user-images.githubusercontent.com/66388744/170001098-8951f077-d50c-42ed-b1ed-f321760cc33b.png">
+<img width="1280" alt="Dashboard - Collapsed Nav (1)" src="https://user-images.githubusercontent.com/66388744/170001972-c107e25f-7876-4006-8eed-d28bee306d69.png">
+
 
 ![Recently Used](https://user-images.githubusercontent.com/66388744/169858891-4effaeea-c089-462f-affb-b2b94ee4b628.png)
 
