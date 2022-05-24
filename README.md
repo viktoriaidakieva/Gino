@@ -65,9 +65,9 @@ AND Logo
 Gino Dashboard 
 <img width="1280" alt="Dashboard - Collapsed Nav (2)" src="https://user-images.githubusercontent.com/66388744/170002322-0f001fed-cfba-4b59-9bfc-b11f8dbf90c5.png">
 
-Icons and their names
+Icons and their names in order,
 
-<img width="208" alt="Group 331" src="https://user-images.githubusercontent.com/66388744/170010995-590af3e4-3c77-422a-8bb4-aae5d26930ad.png">
+Dashboard, My folders, Favourites, Recent, Shared, Archive, Recycle Bin, Expand/Collapse
 
 Gino Dashboard with expanded Navigation
 
