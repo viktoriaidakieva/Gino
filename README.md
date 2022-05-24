@@ -65,9 +65,21 @@ AND Logo
 Gino Dashboard 
 <img width="1280" alt="Dashboard - Collapsed Nav (2)" src="https://user-images.githubusercontent.com/66388744/170002322-0f001fed-cfba-4b59-9bfc-b11f8dbf90c5.png">
 
+Icons and their names
+
+<img width="208" alt="Group 331" src="https://user-images.githubusercontent.com/66388744/170010995-590af3e4-3c77-422a-8bb4-aae5d26930ad.png">
+
+Gino Dashboard with expanded Navigation
+
+<img width="1280" alt="Dashboard - Expanded Nav" src="https://user-images.githubusercontent.com/66388744/170011315-a05e7d76-1941-49e4-8c1a-a493a5121ef9.png">
+
+Recently Used Screen
+<img width="1280" alt="Recently Used (1)" src="https://user-images.githubusercontent.com/66388744/170011098-eb96d9ee-8864-4af9-bde4-aadfcbfaf0de.png">
+
+Recently used screen once a file had been selected
+<img width="1280" alt="Recently Used - Selected File" src="https://user-images.githubusercontent.com/66388744/170011170-48be8717-f1d9-4a9e-a646-97b802de44cd.png">
 
 
-![Recently Used](https://user-images.githubusercontent.com/66388744/169858891-4effaeea-c089-462f-affb-b2b94ee4b628.png)
 
 ## Roadmap 
 
