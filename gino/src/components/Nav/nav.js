@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import './nav.css';
 import useCollapse from 'react-collapsed'
 import dashboardIcon from '../../icons/dashboard icon.png';
@@ -11,32 +11,35 @@ import expandIcon from '../../icons/expand icon.png';
 
 
 function NavBar () {
-    const { getCollapseProps, getToggleProps, isExpanded } = useCollapse()
+   const [isExpanded, setExpanded] = useState(false)
+   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded })
     return (
-      //CREATE ON HOVER FOR EXPAND ICONS
             <nav className='NavbarItems'>
                <div className='menu-icon'>
-                  <ul>
-                  <li id ="dashboard" className="menu-item" href="#dashboard"><img src={dashboardIcon} alt='dashboardIcon'></img></li>
-                  <li id="favourites" className="menu-item"  href="#favourites"><img src={favouritesIcon} alt='favouritesIcon'></img></li>
-                  <li id ="recent" className="menu-item"  href="#recent"><img src={recentIcon} alt='recentIcon'></img></li>
-                  <li id="shared" className="menu-item"  href="#shared"><img src={sharedIcon} alt='sharedIcon'></img></li>
-                  <li id="archive" className="menu-item"  href="#archive"><img src={archiveIcon} alt='archiveIcon'></img></li>
-                  <li id="recycleBin" className="menu-item"  href="#recyleBin"><img src={recycleBinIcon} alt='recycleBinIcon'></img></li>
-                  
+                 
                    {/*FIX BUTTON FOR COLLAPSE  */}
-                  <button id="expandAndCollapse" className="menu-item"{...getToggleProps()}><img src={expandIcon} alt="expandIcon"></img>  
+                 
+                         <section>
+                         <button id ="dashboard" title="Dashboard" className="menu-item" href="#dashboard"><img src={dashboardIcon} alt='dashboardIcon'></img></button>
+                  <button id="favourites" title="Favourites" className="menu-item"  href="#favourites"><img src={favouritesIcon} alt='favouritesIcon'></img></button>
+                  <button id ="recent" title="Recent" className="menu-item"  href="#recent"><img src={recentIcon} alt='recentIcon'></img></button>
+                   <button id="shared" title="Shared" className="menu-item"  href="#shared"><img src={sharedIcon} alt='sharedIcon'></img></button>
+                  <button id="archive" title="Archive" className="menu-item"  href="#archive"><img src={archiveIcon} alt='archiveIcon'></img></button>
+                  <button id="recycleBin" title="Recycle Bin" className="menu-item"  href="#recyleBin"><img src={recycleBinIcon} alt='recycleBinIcon'></img></button>
+                         </section>
+                         <section {...getCollapseProps()}>
+                  <li>Dashboard</li>
+                  <li>Favourites</li>
+                  <li>Recents</li>
+                  <li>Shared</li>
+                  <li>Archive</li>
+                  <li>Recycle Bin</li>
+                           </section>
+                           <button id="expandAndCollapse" className="menu-item"{...getToggleProps({
+          onClick: () => setExpanded((prevExpanded) => !prevExpanded),
+        })}><img src={expandIcon} alt="expandIcon"></img>  
                         {isExpanded ? 'Collapse' : 'Expand'}
                          </button>
-                         <section {...getCollapseProps()}>
-                         <li id ="dashboard" className="menu-item" href="#dashboard"><img src={dashboardIcon} alt='dashboardIcon'></img>Dashboard</li>
-                  <li id="favourites" className="menu-item"  href="#favourites"><img src={favouritesIcon} alt='favouritesIcon'></img>Favourites</li>
-                  <li id ="recent" className="menu-item"  href="#recent"><img src={recentIcon} alt='recentIcon'></img>Recent</li>
-                  <li id="shared" className="menu-item"  href="#shared"><img src={sharedIcon} alt='sharedIcon'></img>Shared</li>
-                  <li id="archive" className="menu-item"  href="#archive"><img src={archiveIcon} alt='archiveIcon'></img>Archive</li>
-                  <li id="recycleBin" className="menu-item"  href="#recyleBin"><img src={recycleBinIcon} alt='recycleBinIcon'></img>Recycle Bin</li>
-                           </section>
-                  </ul>
                </div>
             </nav>
       );
