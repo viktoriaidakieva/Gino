@@ -1,0 +1,15 @@
+.nav{
+    flex-direction: column;
+}
+
+ul { 
+    list-style-type: none;
+    margin: 2%;
+    padding: 2%;
+  }
+
+  li img {
+    display: block;
+    width: 60px;
+    padding-bottom: 1%;
+  }
