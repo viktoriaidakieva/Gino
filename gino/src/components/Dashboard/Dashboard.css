@@ -1,0 +1,12 @@
+.DashboardContainer {
+  display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: center;
+   align-content:flex-start;
+  padding-left: 0;
+  min-width: 30%;
+  min-height: 30%;
+  width: 60%;
+}

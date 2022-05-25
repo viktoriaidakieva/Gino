@@ -1,11 +1,20 @@
+import {
+  AccessTimeFilled,
+  FileCopy,
+  FolderCopy,
+  Link,
+  Star,
+  Subscriptions
+} from '@mui/icons-material';
+
 export const getClickableContainers = () => {
   return [
-    {display: 'Recently Used', iconAlt: 'clock', iconPath: './../../icons/recent-files-icon.png'},
-    {display: 'Popular', iconAlt: 'star', iconPath: './../../icons/recent files icon.png'},
-    {display: 'Documents', iconAlt: 'documents', iconPath: './../../icons/recent files icon.png'},
-    {display: 'Media', iconAlt: 'media', iconPath: './../../icons/recent files icon.png'},
-    {display: 'Web Links', iconAlt: 'links', iconPath: './../../icons/recent files icon.png'},
-    {display: 'Other', iconAlt: 'folder', iconPath: './../../icons/recent files icon.png'}
+    {display: 'Recently Used', iconAlt: 'clock', iconName: AccessTimeFilled},
+    {display: 'Popular', iconAlt: 'star', iconName: Star},
+    {display: 'Documents', iconAlt: 'documents', iconName: FileCopy},
+    {display: 'Media', iconAlt: 'media', iconName: Subscriptions},
+    {display: 'Web Links', iconAlt: 'links', iconName: Link},
+    {display: 'Other', iconAlt: 'folder', iconName: FolderCopy}
   ];
 }
 

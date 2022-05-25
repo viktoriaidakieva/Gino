@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
 .App {
+  font-family: 'Poppins', sans-serif !important;
   text-align: center;
+  overflow: auto;
 }
 
 .App-logo {
@@ -8,7 +12,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff6f6;
   min-height: 50px;
   display: flex;
   flex-direction: column;

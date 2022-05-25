@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      // insert header here or remove this header and insert the created one
       </header>
+      // insert nav bar here
       <Dashboard/>
     </div>
   );

@@ -2,12 +2,7 @@
   "short_name": "Gino",
   "name": "Gino prototype",
   "start_url": ".",
-  "icons": [{
-    "src": "icons/recent files icon.png",
-    "sizes": "96x96",
-    "type": "image/png"
-  }],
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#f8f8f8",
+  "background_color": "#f8f8f8"
 }
