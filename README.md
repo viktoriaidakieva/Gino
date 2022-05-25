@@ -62,8 +62,11 @@ AND Logo
 
 ## Wireframes
 
+https://www.figma.com/file/SvPNwSFInaWkt6HwYHA1NR/AND-Build-Week-Mission?node-id=3%3A11
+
 Gino Dashboard 
-<img width="1280" alt="Dashboard - Collapsed Nav (2)" src="https://user-images.githubusercontent.com/66388744/170002322-0f001fed-cfba-4b59-9bfc-b11f8dbf90c5.png">
+<img width="1280" alt="Dashboard - Collapsed Nav" src="https://user-images.githubusercontent.com/66388744/170233853-e7ad5a2b-7296-4390-b9dc-cc7f92845a20.png">
+
 
 Icons and their names in order,
 
@@ -71,13 +74,15 @@ Dashboard, My folders, Favourites, Recent, Shared, Archive, Recycle Bin, Expand/
 
 Gino Dashboard with expanded Navigation
 
-<img width="1280" alt="Dashboard - Expanded Nav" src="https://user-images.githubusercontent.com/66388744/170011315-a05e7d76-1941-49e4-8c1a-a493a5121ef9.png">
+<img width="1280" alt="Dashboard - Expanded Nav" src="https://user-images.githubusercontent.com/66388744/170233895-aa6bee19-06e4-429a-93a7-ddbdcfe7e2bc.png">
+
 
 Recently Used Screen
-<img width="1280" alt="Recently Used (1)" src="https://user-images.githubusercontent.com/66388744/170011098-eb96d9ee-8864-4af9-bde4-aadfcbfaf0de.png">
+<img width="1280" alt="Recently Used" src="https://user-images.githubusercontent.com/66388744/170233994-8c25843b-e0d7-4afc-8473-31db8869ddeb.png">
+
 
 Recently used screen once a file had been selected
-<img width="1280" alt="Recently Used - Selected File" src="https://user-images.githubusercontent.com/66388744/170011170-48be8717-f1d9-4a9e-a646-97b802de44cd.png">
+<img width="1280" alt="Recently Used - Selected File (1)" src="https://user-images.githubusercontent.com/66388744/170234514-764bfcb7-eb91-49eb-b278-39e7c887c3b3.png">
 
 
 
