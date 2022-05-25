@@ -88,8 +88,6 @@ Recently Used Screen
 Recently used screen once a file had been selected
 <img width="1280" alt="Recently Used - Selected File (2)" src="https://user-images.githubusercontent.com/66388744/170285101-63245a28-b2af-4d06-b26a-b5fa23b0017a.png">
 
-<img width="1280" alt="Recently Used - Selected File (1)" src="https://user-images.githubusercontent.com/66388744/170234514-764bfcb7-eb91-49eb-b278-39e7c887c3b3.png">
-
 
 ## Roadmap 
 
