@@ -52,9 +52,12 @@ Start react app
 ## Usage And Wireframes
 
 Gino Logo
+![Gino Logo mark](https://user-images.githubusercontent.com/66388744/170285627-3aeeefe4-f4e6-47e5-a1b6-6546d47ef82c.png)
 
+Gino Logo with Text
 
-![image](https://user-images.githubusercontent.com/74916027/169838144-815b45df-7d93-4425-ae7e-b9073a47e83a.png)
+![Gino Logo](https://user-images.githubusercontent.com/66388744/170285773-eae8577e-2612-43ff-a54a-ed803e863b63.png)
+
 
 AND Logo
 
