@@ -19,9 +19,19 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-content {
+  display: flex;
+}
+
+.Button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 58%;
+  margin-top: 5px;
 }
