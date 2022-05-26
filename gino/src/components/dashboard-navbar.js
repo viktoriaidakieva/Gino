@@ -18,7 +18,7 @@ import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 
 //Logo
-import Image from './gino.png';
+import Image from '../icons/gino.png'';
 
 
 
