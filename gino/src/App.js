@@ -1,5 +1,6 @@
 import logo from './icons/ginologo.jpg';
 import './App.css';
+import NavBar from './components/Nav/nav.js'
 import Dashboard from './components/Dashboard/Dashboard';
 import Sidebar from './components/Sidebar/Sidebar';
 
@@ -8,7 +9,9 @@ import FormatListBulleted from '@mui/icons-material/FormatListBulleted';
 
 function App() {
   return (
+    
     <div className="App">
+      <NavBar />
       <header className="App-header">
       </header>
       <div className="Button-container">
