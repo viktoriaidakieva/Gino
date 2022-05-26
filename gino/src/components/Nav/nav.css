@@ -1,5 +1,5 @@
 nav{
-    display: block;
+    display: flex;
     float: left;
     flex-direction: column;
     width: max-content;
@@ -37,7 +37,6 @@ button{
 }
 
 li{
-  display: block;
   flex-direction: column;
   align-content:flex-end;
   flex-wrap: wrap;
