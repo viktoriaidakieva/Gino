@@ -5,7 +5,7 @@ nav{
     width: max-content;
     background-color: #fff6f6;
     list-style-type: none;
-    margin: 2%;
+    margin-right: 2%;
     padding: 2%;
 }
 
@@ -13,6 +13,8 @@ nav{
   img {
     display: block;
     text-align: end;
+    width:3em;
+    height: 3em;
   }
 
 .menu-item{
@@ -31,9 +33,7 @@ button{
   display: block;
   flex-direction: column;
   border-radius: 35%;
-  width:8em;
-  height: 7em;
-  margin-bottom: 15px;
+  margin-bottom: 25%;
 }
 
 li{
@@ -45,5 +45,5 @@ li{
   font-size: 24px;
   margin: 10px;
   width:fit-content;
-  height:5.1em;
+  height:3.5em;
 }
