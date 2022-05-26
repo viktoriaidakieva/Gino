@@ -29,9 +29,12 @@ nav{
   background-color: #E53E33;
 }
 
-button{
-  display: block;
+.Section {
+  display: flex;
   flex-direction: column;
+}
+
+button{
   border-radius: 35%;
   margin-bottom: 25%;
 }
