@@ -1,5 +1,5 @@
 
-import React, { useCallback } from "react";
+import React, { useState } from "react";
 import ClickableContainer from "../ClickableContainer/ClickableContainer.jsx";
 import getClickableContainers from "./../../utils/getClickableContainers.js";
 import "./Dashboard.css";
@@ -7,15 +7,32 @@ import "./Dashboard.css";
 const containers = getClickableContainers();
 
 function Dashboard() {
+  const [isActive, setIsActive] = useState(true);
+
   return (
     <div className="DashboardContainer">
-      {containers.map((container, i) =>
-        <ClickableContainer
-          key={i}
-          className="Dashboard"
-          container={container}
-        />
-      )}
+      {isActive &&
+        <>
+        {containers.map((container, i) =>
+          <ClickableContainer
+            key={i}
+            className="Dashboard"
+            container={container}
+          />
+        )}
+        </>
+      }
+      {!isActive && 
+        <>
+        {containers.map((container, i) =>
+          <ClickableContainer
+            key={i}
+            className="Dashboard"
+            container={container}
+          />
+        )}
+        </>
+      }
     </div>
   )
 }
