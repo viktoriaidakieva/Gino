@@ -1,0 +1,12 @@
+.SidebarContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content:flex-start;
+  padding-left: 0;
+  min-width: 5%;
+  min-height: 5%;
+  width: 20%;
+}

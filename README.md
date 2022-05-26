@@ -53,8 +53,12 @@ Start react app
 
 Gino Logo
 
+![Gino Logo mark](https://user-images.githubusercontent.com/66388744/170285627-3aeeefe4-f4e6-47e5-a1b6-6546d47ef82c.png)
 
-![image](https://user-images.githubusercontent.com/74916027/169838144-815b45df-7d93-4425-ae7e-b9073a47e83a.png)
+Gino Logo with Text
+
+![Gino Logo](https://user-images.githubusercontent.com/66388744/170285773-eae8577e-2612-43ff-a54a-ed803e863b63.png)
+
 
 AND Logo
 
@@ -62,8 +66,11 @@ AND Logo
 
 ## Wireframes
 
+https://www.figma.com/file/SvPNwSFInaWkt6HwYHA1NR/AND-Build-Week-Mission?node-id=3%3A11
+
 Gino Dashboard 
-<img width="1280" alt="Dashboard - Collapsed Nav (2)" src="https://user-images.githubusercontent.com/66388744/170002322-0f001fed-cfba-4b59-9bfc-b11f8dbf90c5.png">
+<img width="1280" alt="Dashboard - Collapsed Nav (1)" src="https://user-images.githubusercontent.com/66388744/170284976-312c25ff-fc1f-4ea2-b8c3-9d5c8e7d01bd.png">
+
 
 Icons and their names in order,
 
@@ -71,14 +78,15 @@ Dashboard, My folders, Favourites, Recent, Shared, Archive, Recycle Bin, Expand/
 
 Gino Dashboard with expanded Navigation
 
-<img width="1280" alt="Dashboard - Expanded Nav" src="https://user-images.githubusercontent.com/66388744/170011315-a05e7d76-1941-49e4-8c1a-a493a5121ef9.png">
+<img width="1280" alt="Dashboard - Expanded Nav (1)" src="https://user-images.githubusercontent.com/66388744/170284931-ab7f9bb6-be83-451b-b206-e9efc72e2f85.png">
+
 
 Recently Used Screen
-<img width="1280" alt="Recently Used (1)" src="https://user-images.githubusercontent.com/66388744/170011098-eb96d9ee-8864-4af9-bde4-aadfcbfaf0de.png">
+<img width="1280" alt="Recently Used (1)" src="https://user-images.githubusercontent.com/66388744/170285037-c3e00ac6-677f-4fbf-8040-e8688d429366.png">
+
 
 Recently used screen once a file had been selected
-<img width="1280" alt="Recently Used - Selected File" src="https://user-images.githubusercontent.com/66388744/170011170-48be8717-f1d9-4a9e-a646-97b802de44cd.png">
-
+<img width="1280" alt="Recently Used - Selected File (2)" src="https://user-images.githubusercontent.com/66388744/170285101-63245a28-b2af-4d06-b26a-b5fa23b0017a.png">
 
 
 ## Roadmap 
