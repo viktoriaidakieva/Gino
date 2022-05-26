@@ -17,6 +17,7 @@ function NavBar () {
     };
    const { getCollapseProps, getToggleProps,isExpanded} = useCollapse(config)
     return (
+      //  buttons for icon menu '...getCollapseProps can be updated in the future for scalabe developement'
             <nav className='NavbarItems'>
                <div className='menu-icon' style= {{display:"flex"}}>
                          <section>
@@ -29,12 +30,6 @@ function NavBar () {
                   <button id="recycleBin" title="Recycle Bin" className="menu-item"  href="#recyleBin"><img src={recycleBinIcon} alt='recycleBinIcon'></img></button>
                   <button id="expandAndCollapse" title="Expand" className="menu-item" {...getToggleProps()}><img src={expandIcon} alt="expandIcon"></img></button>
                          </section>
-                         {/* <div style= {{display:"flex"}}> */}
-                         
-                           {/* <button id="expandAndCollapse" title="Expand or Collapse" className="menu-item"{...getToggleProps({
-          onClick: () => setExpanded((prevExpanded) => !prevExpanded),
-        })}><img src={expandIcon} alt="expandIcon"></img>   */}
-                        {/* {isExpanded ? "Collapse" : "Expand"} */}
                         
                         <section {...getCollapseProps()}>
                            <li id ="dashboard" title="Dashboard" className="menu-item-description" href="#dashboard">Dashboard</li>
@@ -46,7 +41,6 @@ function NavBar () {
                            <li id="recycleBin" title="Recycle Bin" className="menu-item-description"  href="#recyleBin">Recycle Bin</li>
                            <li id="expandAndCollapse" title="Recycle Bin" className="menu-item-description"  href="#recyleBin">Collapse</li>
                            </section>
-                        {/* </div> */}
                </div>
             </nav>
       );
