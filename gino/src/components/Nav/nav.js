@@ -27,7 +27,7 @@ function NavBar () {
                    <button id="shared" title="Shared" className="menu-item"  href="#shared"><img src={sharedIcon} alt='sharedIcon'></img></button>
                   <button id="archive" title="Archive" className="menu-item"  href="#archive"><img src={archiveIcon} alt='archiveIcon'></img></button>
                   <button id="recycleBin" title="Recycle Bin" className="menu-item"  href="#recyleBin"><img src={recycleBinIcon} alt='recycleBinIcon'></img></button>
-                  <button id="expandAndCollapse" title="Expand or Collapse" className="menu-item" {...getToggleProps()}><img src={expandIcon} alt="expandIcon"></img></button>
+                  <button id="expandAndCollapse" title="Expand" className="menu-item" {...getToggleProps()}><img src={expandIcon} alt="expandIcon"></img></button>
                          </section>
                          {/* <div style= {{display:"flex"}}> */}
                          
@@ -44,6 +44,7 @@ function NavBar () {
                            <li id="shared" title="Shared" className="menu-item-description"  href="#shared">Shared</li>
                            <li id="archive" title="Archive" className="menu-item-description"  href="#archive">Archive</li>
                            <li id="recycleBin" title="Recycle Bin" className="menu-item-description"  href="#recyleBin">Recycle Bin</li>
+                           <li id="expandAndCollapse" title="Recycle Bin" className="menu-item-description"  href="#recyleBin">Collapse</li>
                            </section>
                         {/* </div> */}
                </div>
