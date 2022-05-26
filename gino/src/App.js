@@ -9,16 +9,18 @@ import FormatListBulleted from '@mui/icons-material/FormatListBulleted';
 
 function App() {
   return (
-    
+
     <div className="App">
+    <header className="App-header">
+    </header>
       <NavBar />
-      <header className="App-header">
-      </header>
-      <div className="Button-container">
+      <div className="Button">
+      <span className="Button-container" title="Filters">
       <Button
         variant="contained"
         style={{background: "#FDE8E8", color: "#000000", margin: "0px", padding: "2px"}}
         startIcon={<FormatListBulleted />}></Button>
+      </span>
       </div>
       <div className="App-content">
       <Dashboard/>
